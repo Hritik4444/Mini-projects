@@ -47,4 +47,5 @@ i{
     left: 50%;
     transform: translate(-50%,-50%);
     opacity: 0;
+    transition: cubic-bezier(.58,.23,.76,.72) 0.5s;
 }
