@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(143, 170, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    border-radius: 12px;
+    background: url(https://i.pinimg.com/736x/43/8f/af/438fafa94bd326d6ece095852106cddd.jpg);
+    background-position: center;
+    background-size: contain;
+}
+button{
+    background-color: rgb(59, 231, 59);
+    border: none;
+    height: 25px;
+    width: 100px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}
+h3{
+    color: red;
+}

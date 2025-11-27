@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 300px;
+    grid-template-rows: 200px 1fr 1fr;
+    gap: 16px;
+    grid-template-areas: "top-left center top-right"
+                         "top-left center-2 center-right"
+                         "bottom-left bottom-right bottom-right";
+                         padding: 10px 10px;
+}
+
+#top-left{
+    grid-area: top-left;
+    border-radius: 7px;
+    background-image: url(https://images.pexels.com/photos/1212693/pexels-photo-1212693.jpeg?cs=srgb&dl=pexels-katie-burandt-1212693.jpg&fm=jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+#bottom-left{
+    grid-area: bottom-left;
+    border-radius: 7px;
+    background-image: url(https://img.freepik.com/premium-photo/nice-boat-docked-lake-with-wonderful-mountain-view_927063-733.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#center{
+    grid-area: center;
+    border-radius: 7px;
+    background-image: url(https://wallpaperset.com/w/full/0/d/5/183330.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#center-2{
+grid-area: center-2;
+border-radius: 7px;
+background-image: url(https://3.bp.blogspot.com/-V2-0Lx7wtfc/Tibqwp34z1I/AAAAAAAAAEw/Jpv0Y1t2QFM/s1600/free%2Bdesktop%2Bwallpaper%2Bspring.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#top-right{
+    
+    grid-area: top-right;
+    border-radius: 7px;
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#center-right{
+   
+    grid-area: center-right;
+    border-radius: 7px;
+    background-image: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-2314-768x512.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#bottom-right{
+   
+    grid-area: bottom-right;
+    border-radius: 7px;
+    background-image: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-2302-768x512.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}

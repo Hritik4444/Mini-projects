@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#btn{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: monospace;
+    z-index: 15;
+    cursor: pointer;
+
+}
+#btn:active{
+    scale: 0.95;
+}
+h1{
+    color: white;
+    font-family: monospace;
+    font-size: 44px;
+    position: relative;
+    bottom: 50px;
+    text-transform: capitalize;
+    z-index: 1;
+    white-space: nowrap;
+}
+#heading{
+    z-index: 10;
+    color: chartreuse;
+    
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 80%;
+    width: 50%;
+    display: grid;
+    gap: 10px;
+    padding: 15px 15px;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1.5fr;
+    grid-template-areas: "child1 child2 child2 child3"
+                         "child1 child4 child5 child5"
+                         "child6 child4 child7 child7";   
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);               
+                          
+}
+
+#child1{
+background-color: black;
+grid-area: child1;
+background-image: url(./resources/image.png);
+background-position: center;
+background-size: cover;
+border-radius: 15px;
+}
+
+#child2{
+    background-color: rgb(0, 26, 255);
+    grid-area: child2;
+    border-radius: 15px;
+    background-color: black;
+    background-image: url(./resources/Screenshot\ 2025-10-09\ 193445.png);
+background-position: center;
+background-size: cover;
+   
+}
+#child3{
+    background-color: black;
+    grid-area: child3;
+    border-radius: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+h3{
+    margin-top: 35%;
+}
+#child4{
+ background-color: rgb(255, 221, 0);
+ grid-area: child4;   
+ border-radius: 15px;
+ background-image: url(./resources/Screenshot\ 2025-10-09\ 193501.png);
+background-position: center;
+background-size: cover;
+}
+#child5{
+    background-color: rgb(255, 0, 170);
+    grid-area: child5;
+    border-radius: 15px;
+    background-image: url(./resources/Screenshot\ 2025-10-09\ 192606.png);
+background-position: center;
+background-size: cover;
+    
+}
+#child6{background-color: rgba(181, 187, 255, 0.812);
+    grid-area: child6;
+    border-radius: 15px;
+    background-image: url(./resources/Screenshot\ 2025-10-09\ 193054.png);
+background-position: center;
+background-size: cover;
+    
+    
+}
+#child7{background-color: rgb(213, 138, 240);
+    grid-area: child7;
+    border-radius: 15px;
+    background-image: url(./resources/Screenshot\ 2025-10-09\ 193245.png);
+background-position: center;
+background-size: cover;
+    
+
+    
+}
