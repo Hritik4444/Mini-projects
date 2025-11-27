@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: got;
+    src: url(./cohort2/task2/resources/Game\ of\ Thrones.ttf);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./cohort2/task2/resources/wp3250979.jpg);
+background-size: cover;
+background-position: center;
+font-family:got;
+color: #22301f;
+font-size: 35px;
+padding-top: 95px;
+padding-left: 35px;
+font-weight: 450;
+}
+#main button{
+    
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(219, 216, 216);
+    border-radius: 50px;
+    font-family:got;
+    padding: 15px 30px;
+    margin-left: 210px;
+    margin-top: 25px;
+    
+}

@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(255, 0, 119), pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#signup{
+    height: 650px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.947);
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}

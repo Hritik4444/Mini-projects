@@ -1,0 +1,51 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+background: url(https://images.unsplash.com/photo-1710985634171-63844794973f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHBhbmRhfGVufDB8fDB8fHww);
+background-size: cover;
+background-position: center;
+height: 300px;
+width: 280px;
+border-radius: 20px;
+
+
+}
+#card{
+    background-color: rgb(247, 250, 243);
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color: rgb(241, 35, 69);
+    font-size: 95px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: cubic-bezier(.58,.23,.76,.72) 0.5s;
+}
